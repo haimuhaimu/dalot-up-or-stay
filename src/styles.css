@@ -87,10 +87,20 @@ p {
 h1 {
   position: relative;
   z-index: 1;
-  max-width: 760px;
+  max-width: 900px;
   margin-bottom: 16px;
   font-size: clamp(2.25rem, 7vw, 5.5rem);
   line-height: 1.02;
+}
+
+.hero h1 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.18em;
+}
+
+.hero h1 span {
+  white-space: nowrap;
 }
 
 .subtitle {
