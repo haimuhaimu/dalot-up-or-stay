@@ -5,3 +5,12 @@ dist
 *.tsbuildinfo
 vite.config.js
 vite.config.d.ts
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Generated artwork and source media kept locally only.
+# scripts/ writes into output/; both are reproducible from fc26-ut-cards/.
+output/
+fc26-ut-cards/
