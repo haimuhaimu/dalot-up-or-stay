@@ -9,7 +9,10 @@ export function StartScreen({ onStart }: StartScreenProps) {
     <main className="screen start-screen">
       <section className="hero">
         <p className="eyebrow">边后卫决策训练</p>
-        <h1>达洛特：上还是不上</h1>
+        <h1>
+          <span>达洛特：</span>
+          <span>上还是不上</span>
+        </h1>
         <p className="subtitle">
           扮演曼联右后卫达洛特，在关键瞬间做出最合理的边路决策。
         </p>
